@@ -4,7 +4,8 @@
 
 body {
     font-size: 10px;
-    font-family: Tahoma, Arial;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;;
+    position: relative;
 }
 
 nav.menu {
@@ -69,7 +70,7 @@ div.hero h2 {
 }
 
 .page-area {
-    max-width: 768px;
+    max-width: 800px;
     display: inline-block;
 }
 
@@ -121,3 +122,26 @@ div.hero h2 {
         margin: 10px;
     }
 }
+  svg{
+    margin-left: -120px;
+    width: 500px;
+    height: 300px;  
+  }
+  path.slice{
+      stroke-width:2px;
+  }
+  
+  polyline{
+      opacity: .3;
+      stroke: black;
+      stroke-width: 2px;
+      fill: none;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 2.2%;
+}
+
+
